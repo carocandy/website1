@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np 
-from PIL import Image
+from pillow import Image
 plt.style.use('seaborn')
 
 image1=Image.open('CSL_Behring_Logo.jpg')
